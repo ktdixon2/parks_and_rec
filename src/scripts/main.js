@@ -41,59 +41,6 @@ fetch("https://raw.githubusercontent.com/nss-day-cohort-31/national-parks/master
                     </article>`;
                     parksContainer.innerHTML += parkHTML
                     }
-                // const allWeather = `
-                //     <article>
-                //     <h3>${park.name}</h3>
-                //     <p>${park.state}</p>
-                //     <p>Weather:</p>
-                //     <ul>
-                //     <li>Currently: ${weatherForPark.currently.summary}</li>
-                //     <li>Today: ${weatherForPark.houly.summary}</li>
-                //     <li>Weekly ${weatherForPark.daily.summary}</li>
-                //     </ul>
-                //     </article>`;
-
-                //     parksContainer.innerHTML += parkHTML
-                
-
-                    // if(park.visited === true) {  
-                    //     const parkHTML = `
-                    // <article class="visited">
-                    // <h3>${park.name}</h3>
-                    // <p>${park.state}</p>
-                    // </article>`;
-        
-                    // parksContainer.innerHTML += parkHTML
-                    // }
-        
-                    // else {
-                    // const parkHTML = `
-                    // <article class="not_visited">
-                    // <h3>${park.name}</h3>
-                    // <p>${park.state}</p>
-                    // </article>`;
-                    // parksContainer.innerHTML += parkHTML
-                    // }
-
                 })
             })
-
-            // if(park.visited === true) {  
-            //     const parkHTML = `
-            // <article class="visited">
-            // <h3>${park.name}</h3>
-            // <p>${park.state}</p>
-            // </article>`;
-
-            // parksContainer.innerHTML += parkHTML
-            // }
-
-            // else {
-            // const parkHTML = `
-            // <article class="not_visited">
-            // <h3>${park.name}</h3>
-            // <p>${park.state}</p>
-            // </article>`;
-            // parksContainer.innerHTML += parkHTML
-            // }
     });
