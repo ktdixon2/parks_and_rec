@@ -1,0 +1,1 @@
+const darkSky = "920f38bf6aac513a7a44613372006143"
