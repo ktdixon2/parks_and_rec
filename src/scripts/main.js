@@ -12,7 +12,7 @@ fetch("https://raw.githubusercontent.com/nss-day-cohort-31/national-parks/master
         const allParks = parks.parks //dig into the Object//
         allParks.forEach(park => {   //seperate each item//
 
-        fetch(`https://blooming-mesa-53816.herokuapp.com/920f38bf6aac513a7a44613372006143/${park.latitude},${park.longitude}`)
+        fetch(`https://blooming-mesa-53816.herokuapp.com/${darkSky}/${park.latitude},${park.longitude}`)
             .then(results => results.json())
             .then(weatherForPark => {
                 console.log("Weather for each park", weatherForPark)
