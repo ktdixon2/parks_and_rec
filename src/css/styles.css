@@ -1,3 +1,21 @@
+body {
+    background-image: url("../img/parkBackground.jpg");
+}
+
+header {
+    background-image: url("../img/headerBackground.jpeg");
+    padding: 0px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#container {
+    margin: 40px 20px 40px 20px;
+    background-color: gainsboro;
+    
+}
+
 .visited {
     border: 2px dashed red;
 }
